@@ -1,0 +1,67 @@
+*{
+  background-color: whitesmoke;
+}
+h1, h2 {
+  font-family: Impact,sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #1B2631;
+}
+
+h2 {
+  background-color: white;
+}
+
+#maintitle {
+  font-size: 3rem;
+  height: 65px;
+  text-align: center;
+}
+
+p, span {
+  font-family: Georgia,serif;
+}
+
+span, ul,  li  {
+  background-color: white;
+}
+
+#first {
+  font-size: 1.260rem;
+  text-align: center;
+}
+
+.text-box {
+  display: inline-block;
+  width: 60%;
+  line-height: 1.4;
+  background-color: white;
+}
+
+ul {
+  list-style-type: square;
+}
+
+img {
+  height: auto; 
+  display: inline-block; 
+  vertical-align: middle;
+  width: 50%;
+}
+
+.box {
+  float: left;
+  box-sizing: inherit;
+  text-align: center;
+  width: 30%;
+  padding: 0.5rem;
+  border: 0.02px solid skyblue;
+  margin: 10px;
+  background-color: white;
+}
+
+#allboxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
